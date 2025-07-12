@@ -1,5 +1,7 @@
 # UrgentMainQueueKit
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FKyle-Ye%2FUrgentMainQueueKit%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/Kyle-Ye/UrgentMainQueueKit) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FKyle-Ye%2FUrgentMainQueueKit%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/Kyle-Ye/UrgentMainQueueKit)
+
 ## Overview
 
 UrgentMainQueueKit provides a mechanism to execute tasks on the main queue with higher priority than regular `dispatch_async` calls. This is achieved by hooking into GCD's internal observer system to intercept and prioritize urgent tasks.
